@@ -3,13 +3,74 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --page-bg-color: rgb(135, 206, 235);
+        }
+
+        body {
+            background-color: var(--page-bg-color);
+        }
+
+        p:first-of-type {
+            background-color: black;
+            color: white;
+        }
+
+        p:last-of-type {
+            color: red;
+        }
+
+        li {
+            width: 50%;
+            padding: 10px;
+            background-color: gray;
+        }
+
+        li:nth-child(odd) {
+            background-color: white;
+        }
+
+        li:first-child,li:last-child {
+            font-size: 22px;
+        }
+
+        li:nth-last-child(3) {
+            background-color: pink;
+        }
+    </style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <!-- the entire body must be written by student -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fugit nesciunt blanditiis totam, distinctio ipsam
+        commodi nemo adipisci harum sapiente temporibus reprehenderit nihil voluptatum inventore dolor itaque vitae?
+        Explicabo, ut.</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatibus vel unde quo facere corporis minus
+        atque sunt totam, officiis quas tenetur aliquam quasi, eum facilis veniam assumenda harum. Doloribus?</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita alias nihil quos ratione quia necessitatibus
+        debitis ad quasi fugit quo temporibus minus, cumque ullam. Perspiciatis velit iusto maiores consequuntur magni?
+    </p>
+
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ul>
+
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
